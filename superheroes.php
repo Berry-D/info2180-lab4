@@ -63,6 +63,7 @@ $superheroes = [
   ], 
 ];
 
+echo filter_input(INPUT_GET,"querry",FILTER_SANITIZE_STRING);
 ?>
 
 <ul>
